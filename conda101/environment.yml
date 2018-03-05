@@ -1,0 +1,11 @@
+name: conda101
+channels:
+  - conda-forge
+  # for Rise plugin
+  - damianavila82
+dependencies:
+  - python>=3.5
+  - jupyter
+  - nbconvert
+  - rise=4.0.0b1 
+
